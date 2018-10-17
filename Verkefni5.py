@@ -11,6 +11,18 @@ import urllib.request, json
 def index():
     return template("index.tpl")
 
+@post("/data")
+def gogn():
+    n = request.forms.get("nafn")
+    h = request.forms.get("heimili")
+    s = request.forms.get("simi")
+    e = request.forms.get("email")
+    m = request.forms.get("matur")
+    nam = request.forms.getall("namsk")
+
+    sum=0
+
+
 ##########################################
 @error(404)
 def villa(error):
