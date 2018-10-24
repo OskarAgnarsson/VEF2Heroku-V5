@@ -20,9 +20,14 @@ def gogn():
     m = request.forms.get("matur")
     nam = request.forms.getall("namsk")
 
-    sum=0
+    summa=0
 
+    for i in nam:
+        summa+=3000
 
+    summaVsk=summa*1.25
+
+    return template("namsk.tpl",n=n,h=h,s=s,e=e,m=m,nam=nam,summa=summa,vsk=summaVsk)
 ##########################################
 @error(404)
 def villa(error):

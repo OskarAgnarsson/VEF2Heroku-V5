@@ -1,4 +1,10 @@
-%rebase('base.tpl', title='Form')
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 	<form method="post" action="data" accept-charset="ISO-8859-1">
 		<label>
 			Nafn:
@@ -46,4 +52,8 @@
 		<label>Python<input type="checkbox" name="namsk" value="Python-2"></label>
 		<label>Javascript<input type="checkbox" name="namsk" value="Javascript-2"></label>
 		<label>Gagnasöfn<input type="checkbox" name="namsk" value="Gagnasofn-2"></label>
+		<br>
+		<label><input type="submit" name="submit"></label>
 	</form>
+</body>
+</html>
