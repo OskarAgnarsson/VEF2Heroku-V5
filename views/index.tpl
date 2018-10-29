@@ -6,37 +6,37 @@
 </head>
 <body>
 	<form method="post" action="data" accept-charset="ISO-8859-1">
-		<label>
-			Nafn:
+		<label class="text">
+			<h4>Nafn:</h4>
 			<br>
 			<input type="text" name="nafn" required>
 		</label>
 		<br>
-		<label>
-			Heimilisfang:
+		<label class="text">
+			<h4>Heimilisfang:</h4>
 			<br>
 			<input type="text" name="heimili" required>
 		</label>
 		<br>
-		<label>
-			Símanúmer:
+		<label class="text">
+			<h4>Símanúmer:</h4>
 			<br>
 			<input type="text" name="simi" required pattern="^(\+354 )?\d{3}[ -]?\d{4}$">
 		</label>
 		<br>
-		<label>
-			Netfang:
+		<label class="text">
+			<h4>Netfang:</h4>
 			<br>
 			<input type="email" name="email" required>
 		</label>
 		<br>
-		Fyrir Hádegi
+		<h4>Fyrir Hádegi</h4>
 		<br>
 		<label>Python<input type="checkbox" name="namsk" value="Python-1"></label>
 		<label>Javascript<input type="checkbox" name="namsk" value="Javascript-1"></label>
 		<label>Gagnasöfn<input type="checkbox" name="namsk" value="Gagnasofn-1"></label>
 		<br>
-		Hádegismatur
+		<h4>Hádegismatur</h4>
 		<br>
 		<label>
 			Já
@@ -47,7 +47,7 @@
 			<input type="radio" name="matur" value="Nei">
 		</label>
 		<br>
-		Eftir Hádegi
+		<h4>Eftir Hádegi</h4>
 		<br>
 		<label>Python<input type="checkbox" name="namsk" value="Python-2"></label>
 		<label>Javascript<input type="checkbox" name="namsk" value="Javascript-2"></label>

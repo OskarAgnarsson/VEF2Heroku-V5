@@ -2,6 +2,13 @@
 	box-sizing: border-box;
 }
 body{
+	display: grid;
 	margin: 0 auto;
 	max-width: 30em;
+}
+.text h4{
+	margin: 0 auto;
+}
+input[type=text]{
+	margin: 0 auto;
 }
