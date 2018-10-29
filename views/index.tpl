@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Form</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 <body>
 	<form method="post" action="data" accept-charset="ISO-8859-1">

@@ -24,6 +24,8 @@ def gogn():
 
     for i in nam:
         summa+=3000
+    if m.lower()=="já":
+        summa+=1000
 
     summaVsk=summa*1.25
 
